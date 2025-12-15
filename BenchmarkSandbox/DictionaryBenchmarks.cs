@@ -29,7 +29,7 @@ public class DictionaryBenchmarks
         [typeof(Warrior)] = new Warrior(),
         [typeof(Wizard)] = new Wizard(),
         [typeof(Monk)] = new Monk(),
-        [typeof(Rogue)]= new Rogue()
+        [typeof(Rogue)] = new Rogue()
     };
 
     private static readonly Dictionary<CharacterType, CharacterBase> CharacterTypeKeyLookup = new(4)
@@ -37,7 +37,7 @@ public class DictionaryBenchmarks
         [CharacterType.Warrior] = new Warrior(),
         [CharacterType.Wizard] = new Wizard(),
         [CharacterType.Monk] = new Monk(),
-        [CharacterType.Rogue]= new Rogue()
+        [CharacterType.Rogue] = new Rogue()
     };
 
     [Benchmark]
