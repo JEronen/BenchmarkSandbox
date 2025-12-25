@@ -66,9 +66,7 @@ Key observations:
   enum keys more easily because the methods are small and deterministic.  
 - **Zero allocations:** Both lookup approaches allocate zero bytes per operation,
   confirmed by `Allocated = 0 B`.
-
-These factors together explain the observed performance difference.
-
+  
 ---
 
 ### Takeaway
